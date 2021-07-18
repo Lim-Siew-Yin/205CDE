@@ -80,38 +80,12 @@ $(window).on('load',function(){
         $('.hid-bar').toggle(500, "swing");
     });
 
-    //industry
-    $('#btnsub-ind').click(function(){
-        $('#sub-ind').toggle(500, "swing");
-    });
-
-    //solution
-    $('#btnsub-sol').click(function(){
-        $('#sub-sol').toggle(500, "swing");
-    });
-
-    //services
-    $('#btnsub-ser').click(function(){
-        $('#sub-ser').toggle(500, "swing");
-    });
-
 });
 
 
 //product-b1&vms change padding-left
 $(window).resize(function() {
     var width = $(window).width();
-    if (width > 800){
-        $("#features-b1").css({
-            "padding-left":"110px"
-            
-        });
-    }else{
-        $("#features-b1").css({
-            "padding-left":"0px"
-            
-        });
-    };
     
     //change navbar
     if (width > 1080){
