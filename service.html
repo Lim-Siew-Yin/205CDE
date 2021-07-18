@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/otherstyle.css">
+    <script type="text/javascript" src="js/style.js"></script>  
+
+
+    <title>NekoInu Veterinary | Services</title>
+</head>
+<body>
+    <div class="header header-larger">
+        <div class="row">
+
+            <div class="logo-bar col-3">
+                <a href="index.html"><img src="assets/logo.png" id="logo"></a>
+            </div>
+            <ul class="nav-bar col-9">
+                    <li class="btnnav"><a href="index.html" >HOME</a></li>
+                    <li class="btnnav"><a href="aboutus.html" >ABOUT US</a></li>
+                    <li class="btnnav"><a href="service.html">OUR SERVICES</a></li>
+                    <li class="btnnav"><a href="quote.php">GET QUOTE</a></li>
+                    <li class="btnnav"><a href="testimonial.php">TESTIMONIAL</a></li>
+                    <li class="btnnav"><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header header-mobile">
+        <div class="row">
+            <div class="logo-bar">
+                <a href="index.html"><img src="assets/logo.png" id="logo"></a>
+            </div>
+
+            <div id="smmenu-bar">
+                <i class="fas fa-bars fa-2x"></i> 
+            </div>
+        </div>
+
+        <div class="hid-bar">
+            <ul class="">
+                <li class="btnnav"><a href="index.html" >HOME</a></li>
+                <li class="btnnav"><a href="aboutus.html" >ABOUT US</a></li>
+                <li class="btnnav"><a href="service.html">OUR SERVICES</a></li>
+                <li class="btnnav"><a href="quote.php">GET QUOTE</a></li>
+                <li class="btnnav"><a href="testimonial.php">TESTIMONIAL</a></li>
+                <li class="btnnav"><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="industry-con" data-aos="fade-up" data-aos="fade-up">
+            <h1>SERVICE</h1>
+            <div class="row photo-grid">
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/1.png" >
+                        <figcaption id="btn-togg-1" onclick="toggleBox(1)">
+                            <h5 class="btn-togg">Dental Care</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/2.jpg">
+                        <figcaption id="btn-togg-2" onclick="toggleBox(2)">
+                            <h5 class="btn-togg">Flea & Tick</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/3.jpg">
+                        <figcaption id="btn-togg-3" onclick="toggleBox(3)">
+                            <h5 class="btn-togg">Grooming & Bathing</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/4.jpg">
+                        <figcaption id="btn-togg-4" onclick="toggleBox(4)">
+                            <h5 class="btn-togg">Laboratory Test</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="service-desc">
+                <div class="serv-togg" id="togg-1">
+                    <h4>Dental Care</h4>
+                    <p>Pets dental health problem is very common as they do not know how to brush their teeth. Our doctors will observes the tooth condition and provide the best solution to cure any dental problem.</p>
+                </div>
+                <div class="serv-togg" id="togg-2">
+                    <h4>Flea & Tick</h4>
+                    <p>Flea and Tick treatment are absolutely important especially for pets that like to play outside. We provide oral treatment and also external treatment to keep your pet free from them.</p>
+                </div>
+                <div class="serv-togg" id="togg-3">
+                    <h4>Grooming & Bathing</h4>
+                    <p>We have a special department to bath and groom your pets. We groom your pet with love and care.</p>
+                </div>
+                <div class="serv-togg" id="togg-4">
+                    <h4>Laboratory Test</h4>
+                    <p>Our doctor are trained to recognise various skin conditions and diseases. Laboratory testing helps us to identifying underlying cause. Blood test and intradermal test are two most common allergy testing we have done to animal. </p>
+                </div>
+            </div>
+
+
+
+            <div class="row photo-grid" data-aos="fade-up">
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/5.jpg">
+                        <figcaption id="btn-togg-5" onclick="toggleBox(5)">
+                            <h5 class="btn-togg">Parasite Prevention & Treatment</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/6.jpg">
+                        <figcaption id="btn-togg-6" onclick="toggleBox(6)">
+                            <h5 class="btn-togg">Spay / Neuter</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/7.jpg">
+                        <figcaption id="btn-togg-7" onclick="toggleBox(7)">
+                            <h5 class="btn-togg">Vaccination</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="grid-item col-xs-10 col-sm-6 col-lg-3">
+                    <figure>
+                        <img src="assets/home/8.jpg">
+                        <figcaption id="btn-togg-8" onclick="toggleBox(8)">
+                            <h5 class="btn-togg">Ward Observation</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="service-desc">
+                <div class="serv-togg" id="togg-5">
+                    <h4>Parasite Prevention & Treatment</h4>
+                    <p>Parasite are dangerous as they stole nutrition from animals. We provide prevention care and treatment to several kinds of parasite mites, heartworms, intestinal worms, etc.</p>
+                </div>
+                <div class="serv-togg" id="togg-6">
+                    <h4>Spay / Neuter</h4>
+                    <p>Birth control is necessary for your pet not only to prevent accidental pregnancy but also helps to prolong life-span.</p>
+                </div>
+                <div class="serv-togg" id="togg-7">
+                    <h4>Vaccination</h4>
+                    <p>Vaccination is one of the most important thing for every pet to prevent from some diseases. Our doctor will consult on which vaccination for different age of the pet.</p>
+                </div>
+                <div class="serv-togg" id="togg-8">
+                    <h4>Ward Observation</h4>
+                    <p>We provide accommodation for pet that has to be warded and monitor overnight. Our doctor are always on-call to check on the animal's health condition</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>    
+
+    
+    <button id="btnTop" onclick="topFunction()">Go To Top</button>
+    <div class="footer row">
+        <div class="col-sm-12 col-lg-4 ">
+            <p><b>Neko Inu Veterinary Clinic</b></p>
+            <p>72-1-71 Arena Curve,
+                <br>
+                Jalan Mahsuri,
+                <br>
+                11900 Bayan Baru, Penang.</p>
+        </div>
+        <div class="col-sm-12 col-lg-4 ">
+           <p>04-611 9600</p>
+           <p>nekoinu@info.com</p>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <p>2021 © NekoInu</p>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            //transition
+            AOS.init({
+                duration: 1500,
+                easing: 'ease',
+                    
+            });
+        });
+
+        //service toogle
+        function toggleBox(i){
+
+            var e = document.getElementById("togg-" + i);
+            if (e.style.display == "block") {
+            e.style.display = "none";
+            } else {
+            e.style.display = "block";
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>
