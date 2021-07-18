@@ -1,0 +1,118 @@
+/* index- icon slider */
+.slick-slide{
+    margin: auto 30px;
+}
+.icon-con{
+    max-width: 100%;
+    margin: 40px 0;
+    background-color: #292c5c;
+}
+.icon-con i{
+    color: #ebebeb;
+}
+.icon-con i:hover{
+    color: #5a69f3;
+   transition: all 0.2s; 
+}
+.iconslider {
+    width: 90%;
+    margin: 80px auto;
+    vertical-align: middle;
+}
+.iconslider h7{
+    font-size: 13px;
+    padding: 15px 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.iconslider>.slick-prev:hover,
+.slick-next:hover {
+    opacity: 0.5;
+} 
+.iconslider> .slick-prev{
+    left: -1px;
+    z-index: 99;
+}
+.iconslider> .slick-next{
+    right: -1px;
+    z-index: 99;
+}
+.btn-ind{
+    background: transparent;
+    border: none;
+    cursor: pointer; 
+}
+
+
+/* sub nav*/
+.sub-nav{
+	padding-bottom: 10px;
+  position: absolute;
+	top: 87px;
+  margin-left: -60px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+.sub-nav li{
+	background: #34656d;
+	display: block;
+  padding: 10px;
+  cursor: pointer;
+  height: auto;
+  width: 200%;
+}
+.nav-bar li:hover .sub-nav{
+  visibility: visible;
+  opacity: 1;
+}
+/* solution n service */
+.subnav-title{
+  color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+  width: 130% !important;
+}
+/* sub sub nav */
+.sub-nav li ul{
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0px;
+  margin-left: 118px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+  z-index: 99;
+}
+.sub-nav li:hover ul{
+  visibility: visible;
+  opacity: 1;
+}
+ .sub-nav li ul li{
+  text-align: left;
+  width: 350px;
+}
+
+/*small nav sub nav*/
+.hid-sub{
+    display: none;
+    /* position: relative; */
+  }
+  .hid-sub li{
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    width: auto;
+  }
+  .btnsub:hover>.hid-sub li{
+    /* all: unset !important; */
+    color: #ffffff;
+    /* letter-spacing: 0; */
+  }
+  .hid-sub li:hover{
+    color: #c6ffc1;
+  }
+  .hid-bar ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+  }
